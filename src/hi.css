@@ -39,10 +39,27 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 1em;
+    gap: 2rem; /* ระยะห่างระหว่างปุ่ม */
+    margin-top: 2rem;
   }
   
   #no-button {
     transition: all 0.2s ease;
+  }
+  
+  button {
+    padding: 0.7em 1.5em;
+    font-size: 1.1rem;
+    border-radius: 12px;
+    font-family: 'Comic Sans MS', cursive;
+    background-color: #1a1a1a;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #333;
   }
   
